@@ -16,15 +16,21 @@
             <label for="income">Amount:</label>
             <input type="number" id="income" name="income" min="1" max="1000000">
             <select name="currency" id="currency-select">
-                <option value="">--Please choose a currecny--</option>
-                <option value="dog">PLN</option>
-                <option value="cat">EUR</option>
-                <option value="hamster">USD</option>
-                <option value="parrot">AUD</option>
-                <option value="spider">GBP</option>
+                <!-- <option value="">--Please choose a currecny--</option> -->
+                <option value="PLN">PLN </option>
+                <option value="EUR">EUR</option>
+                <option value="USD">USD</option>
+                <option value="AUD">AUD</option>
+                <option value="GBP">GBP</option>
             </select>
         </p>
+        <p>
+            <label for="date">Enter a date:</label>
+            <input type="date" id="date" name="date" format="yyyy-mm-dd">
+        </p>
 
+        <input class="button" type="button" value="Add income">
+        <input class="button" type="button" value="Cancel">
     </div>
 
 </body>
