@@ -29,8 +29,29 @@
             <input type="date" id="date" name="date" format="yyyy-mm-dd">
         </p>
 
-        <input class="button" type="button" value="Add income">
-        <input class="button" type="button" value="Cancel">
+        <label for="cat">Category:</label>
+        <p>
+            <input type="radio" name="cat" id="salary" value="salary">
+            <label for="salary">Salary</label>
+            <br>
+            <input type="radio" name="cat" id="bank-interest" value="bank-interest">
+            <label for="bank-interest">Bank interest</label>
+            <br>
+            <input type="radio" name="cat" id="allegro" value="allegro">
+            <label for="allegro">Allegro</label>
+            <br>
+            <input type="radio" name="cat" id="other" value="other">
+            <label for="other">Other</label>
+        </p>
+        <p>
+            <label for="comment">Comment:</label>
+            <input type="text" id="comment" name="comment" required minlength="3" maxlength="100" size="20">
+        </p>
+        <p>
+            <input class="button" type="button" value="Add income">
+            <input class="button" type="button" value="Cancel">
+        </p>
+
     </div>
 
 </body>
