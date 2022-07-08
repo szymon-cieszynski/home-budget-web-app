@@ -11,3 +11,9 @@
 menu {
     font-size: 120%;
 }
+
+table,
+th,
+td {
+    border: 1px solid;
+}
