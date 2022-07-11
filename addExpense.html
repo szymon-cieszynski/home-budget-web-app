@@ -13,12 +13,10 @@
 <body>
     <div id="addExpense">
         <h1>Add expense</h1>
-        <h2></h2>
         <p>
             <label for="expense">Amount:</label>
             <input type="number" id="expense" name="expense" min="1" max="1000000">
             <select name="currency" id="currency-select">
-                <!-- <option value="">--Please choose a currecny--</option> -->
                 <option value="PLN">PLN </option>
                 <option value="EUR">EUR</option>
                 <option value="USD">USD</option>
@@ -34,62 +32,62 @@
             <input type="date" id="date" name="date">
         </p>
         <p>
-            <label for="method">Payment method:</label>
-            <select name="method" id="payment-method">
+            <label for="payment-method">Payment method:</label>
+            <select name="payment-method" id="payment-method">
                 <option value="cash">Cash</option>
                 <option value="debit">Debit card</option>
                 <option value="credit">Credit card</option>
             </select>
         </p>
 
-        <label for="cat">Category:</label>
+        <label>Category:</label>
         <p>
-            <input type="radio" name="cat" id="food" value="food">
+            <input type="radio" name="category" id="food" value="food">
             <label for="food">Food</label>
             <br>
-            <input type="radio" name="cat" id="living-place" value="living-place"">
-            <label for=" living-place"">Living place</label>
+            <input type="radio" name="category" id="living-place" value="living-place">
+            <label for="living-place">Living place</label>
             <br>
-            <input type="radio" name="cat" id="transport" value="transport">
+            <input type="radio" name="category" id="transport" value="transport">
             <label for="transport">Transport</label>
             <br>
-            <input type="radio" name="cat" id="telecom" value="telecom">
+            <input type="radio" name="category" id="telecom" value="telecom">
             <label for="telecom">Telecommunication</label>
             <br>
-            <input type="radio" name="cat" id="health" value="health">
+            <input type="radio" name="category" id="health" value="health">
             <label for="health">Health care</label>
             <br>
-            <input type="radio" name="cat" id="clothes" value="clothes">
+            <input type="radio" name="category" id="clothes" value="clothes">
             <label for="clothes">Clothes</label>
             <br>
-            <input type="radio" name="cat" id="hygiene" value="hygiene">
+            <input type="radio" name="category" id="hygiene" value="hygiene">
             <label for="hygiene">Hygiene</label>
             <br>
-            <input type="radio" name="cat" id="childrens" value="childrens">
+            <input type="radio" name="category" id="childrens" value="childrens">
             <label for="childrens">Childrens</label>
             <br>
-            <input type="radio" name="cat" id="entertainment" value="entertainment">
+            <input type="radio" name="category" id="entertainment" value="entertainment">
             <label for="entertainment">Entertainment</label>
             <br>
-            <input type="radio" name="cat" id="trip" value="trip">
+            <input type="radio" name="category" id="trip" value="trip">
             <label for="trip">Trip</label>
             <br>
-            <input type="radio" name="cat" id="trainings" value="trainings">
+            <input type="radio" name="category" id="trainings" value="trainings">
             <label for="trainings">Trainings / courses</label>
             <br>
-            <input type="radio" name="cat" id="books" value="books">
+            <input type="radio" name="category" id="books" value="books">
             <label for="books">Books</label>
             <br>
-            <input type="radio" name="cat" id="savings" value="savings">
+            <input type="radio" name="category" id="savings" value="savings">
             <label for="savings">Savings</label>
             <br>
-            <input type="radio" name="cat" id="retiring" value="retiring">
+            <input type="radio" name="category" id="retiring" value="retiring">
             <label for="retiring">Retiring</label>
             <br>
-            <input type="radio" name="cat" id="donation" value="donation">
+            <input type="radio" name="category" id="donation" value="donation">
             <label for="donation">Donation / charity</label>
             <br>
-            <input type="radio" name="cat" id="other" value="other">
+            <input type="radio" name="category" id="other" value="other">
             <label for="other">Other</label>
         </p>
         <p>
