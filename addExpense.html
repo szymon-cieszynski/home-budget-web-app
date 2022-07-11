@@ -27,11 +27,11 @@
             </select>
         </p>
         <p>
-            <label for="text">Enter a date:</label>
-            <input type="text" id="date" name="date" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" required>
+            <!-- <label for="text">Enter a date:</label>
+            <input type="text" id="date" name="date" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" required> -->
 
-            <!-- <label for="date">Enter a date:</label>
-            <input type="date" id="date" name="date" format="yyyy-mm-dd"> -->
+            <label for="date">Enter a date:</label>
+            <input type="date" id="date" name="date">
         </p>
         <p>
             <label for="method">Payment method:</label>
@@ -94,7 +94,9 @@
         </p>
         <p>
             <label for="comment">Comment:</label>
-            <input type="text" id="comment" name="comment" required minlength="3" maxlength="100" size="20">
+            <br>
+            <textarea id="comment" name="comment" rows="2" cols="50">
+            </textarea>
         </p>
         <p>
             <input class="button" type="button" value="Add expense">
