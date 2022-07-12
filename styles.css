@@ -1,16 +1,26 @@
 #container {
     width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-    border: 3px solid #003049;
+    height: 600px;
+    /* font-size: 1.5em; */
+    color: rgba(245, 245, 245, 0.988);
+    /* margin-left: 0 auto;
+    margin-right: 0 auto; */
+    /* border: 3px solid #003049; */
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background: center/cover url("https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    margin: 0 auto;
 }
 
-menu {
-    font-size: 120%;
+h1 {
+    font-size: 3em;
 }
+
+/* menu {
+    font-size: 120%;
+} */
 
 table,
 th,
@@ -20,8 +30,9 @@ td {
 }
 
 div {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* margin: 0 auto; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,4 +46,65 @@ textarea {
     border-radius: 5px;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px #999;
+}
+
+ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/*Links in main menu and main page:*/
+li a {
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 1.0em;
+    width: 140px;
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+    background-color: #000000;
+    padding: 10px 15px;
+    margin: 0px 1px 1px 0px;
+    border: 1px solid rgb(248, 248, 252);
+    border-radius: 3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0px 2px 3px gray;
+    -moz-box-shadow: 0px 2px 3px gray;
+    -webkit-box-shadow: 0px 2px 3px gray;
+}
+
+li a:hover {
+    color: #000000;
+    background: hwb(180 97% 0%);
+    /* border: 1px solid blue; */
+}
+
+/*Buttons:*/
+button {
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 1.0em;
+    width: 120px;
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+    background-color: #000000;
+    padding: 5px 10px;
+    margin: 0px 1px 1px 0px;
+    border: 1px solid rgb(248, 248, 252);
+    border-radius: 3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0px 2px 3px gray;
+    -moz-box-shadow: 0px 2px 3px gray;
+    -webkit-box-shadow: 0px 2px 3px gray;
+}
+
+button:hover {
+    color: #000000;
+    background: hwb(180 97% 0%);
 }
